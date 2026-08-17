@@ -2,6 +2,8 @@
 
 function Homepage () {
     return (
+
+     <>
         <div className=" flex justify-between  px-8 items-center py-14">
 
         <div className="flex flex-col gap-4">
@@ -22,7 +24,33 @@ function Homepage () {
         </div>
            
         </div>
+
+        <div className="py-14 pb-8">
+            <h2 className="text-3xl text-center">My Skills</h2>
+            <p className="text-2xl text-center">Here are some of the technologies and tools I'm proficient in:</p>
+            <div className="flex flex-col gap-4 mt-4 justify-center items-center">
+                <div className="flex gap-4">
+                <button className="bg-gray-200 text-gray-800 hover:bg-gray-300 px-4 py-2 rounded-md mr-2">HTML</button>
+                <button className="bg-gray-200 text-gray-800 hover:bg-gray-300 px-4 py-2 rounded-md mr-2">CSS</button>
+                <button className="bg-gray-200 text-gray-800 hover:bg-gray-300 px-4 py-2 rounded-md mr-2">JavaScript Fundamentals</button>
+                
+                </div>
+              
+                <div className="flex gap-4">
+                    <button className="bg-gray-200 text-gray-800 hover:bg-gray-300 px-4 py-2 rounded-md mr-2">React.js</button>
+                    <button className="bg-gray-200 text-gray-800 hover:bg-gray-300 px-4 py-2 rounded-md mr-2">Tailwind CSS</button>
+                    <button className="bg-gray-200 text-gray-800 hover:bg-gray-300 px-4 py-2 rounded-md mr-2">Github</button>
+
+                </div>
+               
+
+            </div>
+        </div>
+     </>   
+     
     )
+      
+
 }
 
 export default Homepage;
